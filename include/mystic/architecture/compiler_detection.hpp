@@ -155,6 +155,10 @@
 
 #endif // defined(__HIP__) || defined(__HIPCC__)
 
+/* =============================================
+    Guardrail
+   --------------------------------------------- */
+
 /**
  * @brief If compiler is unknown, then stop compilation.
  * Only way to restrict it is to define MYSTIC_ARCH_ALLOW_UNKNOWN_COMPILER.
@@ -284,7 +288,7 @@
 #  define MYSTIC_ARCH_COMPILER_VERSION_MAJOR (__INTEL_COMPILER / 100)
 #  define MYSTIC_ARCH_COMPILER_VERSION_MINOR (__INTEL_COMPILER % 100)
 #  define MYSTIC_ARCH_COMPILER_VERSION_PATCH 0
-# endif
+# endif // defined(__INTEL_LLVM_COMPILER)
 
 /**
  * @brief String version Major.Minor
@@ -432,6 +436,9 @@
 
 #endif // (MYSTIC_ARCH_COMPILER == MYSTIC_ARCH_COMPILER_HIPCC)
 
+/* =============================================
+    Compiler Runtime Logic
+   --------------------------------------------- */
 
 /**
  * @namespace mystic
