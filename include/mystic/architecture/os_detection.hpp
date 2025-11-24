@@ -87,7 +87,7 @@
 
 /**
  * @macro MYSTIC_ARCH_OS
- * @brief Tag for os OS identification.
+ * @brief Tag for OS identification.
  */
 #if defined(_WIN32) || defined(_WIN64) /* using Windows */
 /**
