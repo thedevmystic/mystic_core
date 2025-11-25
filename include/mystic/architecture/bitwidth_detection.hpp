@@ -14,8 +14,8 @@
  *
  * ------------------------------------------------------------------------------------------------------
  *
- * @path [ROOT]/include/mystic/architecture/os_detection.hpp
- * @file os_detection.hpp
+ * @path [ROOT]/include/mystic/architecture/bitwidth_detection.hpp
+ * @file bitwidth_detection.hpp
  * @brief Defines bitwidth detection macros & runtime logic.
  *
  * @details
