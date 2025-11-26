@@ -243,3 +243,6 @@ constexpr inline const char* get_standard_name() {
 } // namespace architecture
 } // namespace mystic
 
+/// Cleanup of temp macro.
+#undef MYSTIC_CPP_LANG_VERSION
+
