@@ -14,8 +14,8 @@
  *
  * ------------------------------------------------------------------------------------------------------
  *
- * @path [ROOT]/include/mystic/architecture/os_detection.hpp
- * @file os_detection.hpp
+ * @path [ROOT]/include/mystic/architecture/cpu_detection.hpp
+ * @file cpu_detection.hpp
  * @brief Defines cpu detection macros & runtime logic.
  *
  * @details
@@ -28,7 +28,7 @@
  *
  * @code {.cpp}
  * // Example
- * #include "mystic/architecture/os_detection.hpp"
+ * #include "mystic/architecture/cpu_detection.hpp"
  * 
  * #if (MYSTIC_ARCH_CPU == MYSTIC_ARCH_CPU_X86_64)
  * // x86-specific code
