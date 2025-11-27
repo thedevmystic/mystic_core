@@ -14,7 +14,7 @@
  *
  * ------------------------------------------------------------------------------------------------------
  *
- * @path [ROOT]/include/mystic/utility/stringify.hpp
+ * @path [ROOT]/include/mystic/macros/stringify.hpp
  * @file stringify.hpp
  * @brief Defines stringify macro.
  *
@@ -23,7 +23,7 @@
  * 
  * @code {.cpp}
  * // Example
- * #include "mystic/utility/stringify.hpp"
+ * #include "mystic/macros/stringify.hpp"
  *
  * #define USER_MACRO 134
  * #define USER_MACRO_STR MYSTIC_STRINGIFY(USER_MACRO)
