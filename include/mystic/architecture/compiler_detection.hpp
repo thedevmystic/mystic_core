@@ -55,7 +55,7 @@
  */
 #pragma once
 
-#include "mystic/utility/stringify.hpp"
+#include "mystic/macros/stringify.hpp"
 
 /* =============================================
     Compiler Tags
