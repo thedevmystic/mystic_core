@@ -19,8 +19,8 @@
  * @brief Defines deprecated macro.
  *
  * @details
- * This header provides deprecated macro to not inline a function,
- * overriding compiler's benifit heuristic.
+ * This header provides deprecated macro to deprecate a function, classes,
+ * struct, etc.
  * 
  * @code {.cpp}
  * // Example

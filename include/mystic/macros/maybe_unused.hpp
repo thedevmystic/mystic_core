@@ -19,8 +19,8 @@
  * @brief Defines maybe_unused macro.
  *
  * @details
- * This header provides maybe_unused macro to not inline a function,
- * overriding compiler's benifit heuristic.
+ * This header provides maybe_unused macro to mark a variable
+ * as unused.
  * 
  * @code {.cpp}
  * // Example

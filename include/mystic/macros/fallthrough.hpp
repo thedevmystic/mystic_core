@@ -19,8 +19,8 @@
  * @brief Defines fallthrough macro.
  *
  * @details
- * This header provides fallthrough macro to not inline a function,
- * overriding compiler's benifit heuristic.
+ * This header provides fallthrough macro to fallthrough
+ * a switch statement.
  * 
  * @code {.cpp}
  * // Example
