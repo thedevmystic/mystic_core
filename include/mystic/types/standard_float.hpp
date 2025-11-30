@@ -59,7 +59,13 @@
 
 #include <cfloat>
 
-#include "mystic/types/internal/fixed_width_floats.hpp"
+// #include "mystic/types/internal/fixed_width_floats.hpp"
+
+/**
+ * @namespace mystic
+ * @brief Top-level namespace.
+ */
+namespace mystic {
 
 /**
  * @namespace mystic::types
@@ -69,20 +75,22 @@
  * This namespace contains all data types from low level
  * to high level.
  */
-namespace mystic::types {
+namespace types {
+
+/// TODO: Fixed-width floats are future-addition.
 
 /**
  * @brief Fixed width floating-point types.
  */
-using float16_t = ::mystic::types::internal::float16_t;
-using float32_t = ::mystic::types::internal::float32_t;
-using float64_t = ::mystic::types::internal::float64_t;
-using float128_t = ::mystic::types::internal::float128_t;
+// using float16_t = ::mystic::types::internal::float16_t;
+// using float32_t = ::mystic::types::internal::float32_t;
+// using float64_t = ::mystic::types::internal::float64_t;
+// using float128_t = ::mystic::types::internal::float128_t;
 
 /**
  * @brief Fixed width brain floating point type.
  */
-using bfloat16_t = ::mystic::types::internal::bfloat16_t;
+// using bfloat16_t = ::mystic::types::internal::bfloat16_t;
 
 } // namespace mystic::types
 
