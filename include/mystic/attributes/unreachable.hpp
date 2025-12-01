@@ -75,8 +75,8 @@ namespace mystic {
 /**
  * @brief Function for unreachable macro in runtime.
  */
-constexpr MYSTIC_FORCEINLINE void unreachable() noexcept {
-    MYSTIC_UNREACHABLE()
+MYSTIC_FORCEINLINE void unreachable() noexcept {
+    MYSTIC_UNREACHABLE();
 }
 
 } // namespace mystic
