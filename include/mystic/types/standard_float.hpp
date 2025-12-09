@@ -62,12 +62,6 @@
 // #include "mystic/types/internal/fixed_width_floats.hpp"
 
 /**
- * @namespace mystic
- * @brief Top-level namespace.
- */
-namespace mystic {
-
-/**
  * @namespace mystic::types
  * @ingroup Types
  * @brief Basic and high level data types.
@@ -75,7 +69,7 @@ namespace mystic {
  * This namespace contains all data types from low level
  * to high level.
  */
-namespace types {
+namespace mystic::types {
 
 /// TODO: Fixed-width floats are future-addition.
 

@@ -56,12 +56,6 @@
 #include <cstddef>
 
 /**
- * @namespace mystic
- * @brief Top-level namespace.
- */
-namespace mystic {
-
-/**
  * @namespace mystic::types
  * @ingroup Types
  * @brief Basic and high level data types.
@@ -69,7 +63,7 @@ namespace mystic {
  * This namespace contains all data types from low level
  * to high level.
  */
-namespace types {
+namespace mystic::types {
 
 /**
  * @brief Type aliases to standard types.
